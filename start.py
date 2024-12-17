@@ -56,7 +56,7 @@ while running:
     scaled_width = int(boneco_original_width * scale)
     scaled_height = int(boneco_original_height * scale)
     center_x = screen_width // 2 + int(x * scale * 20)
-    center_y = screen_height // 2 + int(z * scale * 10)
+    center_y = screen_height // 2.5 + int(z * scale * 10)
 
     # Redimensionar a imagem do boneco
     boneco_scaled = pygame.transform.scale(boneco_image, (scaled_width, scaled_height))
